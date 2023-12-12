@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+       <title>Contact Form</title>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Form</h1>
+        </header>
+
+        <form action="" method="POST">       
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" placeholder="Name">
+            </div>
+            
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="City" placeholder="City">
+            </div>
+            
+            <div>
+                <label for="zipCode">Zip Code:</label>
+                <input type="text" id="zipCode" name="ZipCode" placeholder="Zip Code">
+            </div>
+            
+            <div>
+                <label for="Waiver">Disclaimer acknowledgement.</label>
+                <input type="checkbox" name="Confirmed" id="Waiver">   
+            </div>
+
+            <div>
+                <label for="rating">Rate our webpage:</label>
+                    <select id="rating" name="Rating">
+                        <option value="oneStar">One Star</option>
+                        <option value="twoStars">Two Stars</option>
+                        <option value="threeStars">Three Stars</option>
+                        <option value="fourStars">Four Stars</option>
+                    </select>
+            </div>
+
+            <div>
+                <label for="details">Details:</label>
+                <textarea id="details" name="Details" rows="5" cols="60" placeholder="Please type your request here."></textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Send">
+            </div>
+        </form>
+
+        <footer>
+            <p>Copyright &copy; 2023</p>
+        </footer>
+    </body>
+</html>
